@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <h1>Calculadora</h1>
+  <div id="calculadora">
+
+    <form>
+      <input type="text" id="resp" value="" readonly>
+      <br>
+      <input type="button" class="btn" id="bnt7" value="7" onclick="trataClick(7)">
+      <input type="button" class="btn" id="bnt8" value="8" onclick="trataClick(8)">
+      <input type="button" class="btn" id="bnt9" value="9" onclick="trataClick(9)">
+      <input type="button" class="btn" id="bntmais" value="+" onclick="trataClick('+')">
+      <br>
+      <input type="button" class="btn" id="bnt4" value="4" onclick="trataClick(4)">
+      <input type="button" class="btn" id="bnt5" value="5" onclick="trataClick(5)">
+      <input type="button" class="btn" id="bnt6" value="6" onclick="trataClick(6)">
+      <input type="button" class="btn" id="bntmenos" value="-" onclick="trataClick('-')">
+      <br>
+      <input type="button" class="btn" id="bnt1" value="1" onclick="trataClick(1)">
+      <input type="button" class="btn" id="bnt2" value="2" onclick="trataClick(2)">
+      <input type="button" class="btn" id="bnt3" value="3" onclick="trataClick(3)">
+      <input type="button" class="btn" id="bntvezes" value="x" onclick="trataClick('*')">
+      <br>
+      <input type="button" class="btn" id="bnt0" value="0" onclick="trataClick(0)">
+      <input type="button" class="btn" id="bntponto" value="C" onclick="limpa()">
+      <input type="button" class="btn" id="bntigual" value="=" onclick="calcular()">
+      <input type="button" class="btn" id="bntdividir" value="/" onclick="trataClick('/')">
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

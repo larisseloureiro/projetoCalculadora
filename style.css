@@ -1,0 +1,39 @@
+body {
+  background-color:  #6f5151; 
+  background-image: url(cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;  
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  
+  
+  }
+  #calculadora {
+    height: 110mm;
+    width: 100mm;
+    display: flex;
+    margin: auto;
+  }
+
+  #resp{
+    width: 97mm;
+    height: 15mm;
+    font-size: 35px;
+    border-style: groove;
+    border-color: black;
+    margin-bottom: 10px;
+}
+.btn:hover{
+  background-color:rgb(246, 246, 246);
+}
+.btn{
+  border-style: groove;
+  border-color: black;
+  margin-bottom: 10px;
+  height: 108px;
+  width: 90px;
+  font-size: 35px;
+  background-color: rgb(246, 246, 246);
+}
